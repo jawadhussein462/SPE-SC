@@ -1,0 +1,20 @@
+llm_target:
+    model: "gpt-4o"
+    model_provider: "openai"
+    temperature: 0.5
+
+spe_sc_config:
+    N: 3
+    M: 5
+    llm_rewriter:
+        model: "gpt-4o-mini"
+        model_provider: "openai"
+        temperature: 0.0
+    llm_filter:
+        model: "gpt-4o-mini"
+        model_provider: "openai"
+        temperature: 0.0
+    llm_reconstructor:
+        model: "gpt-4o-mini"
+        model_provider: "openai"
+        temperature: 0.0
